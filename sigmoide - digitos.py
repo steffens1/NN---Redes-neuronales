@@ -30,6 +30,9 @@ model.evaluate(x_prueba,y_prueba)
 
 predicciones = model.predict(x_prueba)
 
+#se define funcion que predice // la imagen de resultado es el resultado real 
+# xlabel es el resultado de la prediccion
+
 def predecir(xx):
     plot.figure()
     plot.imshow(x_prueba[xx])
